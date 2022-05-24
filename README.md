@@ -70,7 +70,8 @@ Many users can't, won't or prefer not to use a mouse. Thankfully coders know how
  [Lighthouse](https://developers.google.com/web/tools/lighthouse) is an automated audit tool. There are others like [Dev-Axe Web Tools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?utm_source=deque.com&utm_medium=referral&utm_campaign=axe-browser-extensions_hero). Like most linters, reading the rule explanations is helpful: [Lighhouse Rule Explanations](https://web.dev/lighthouse-accessibility/#aria)
   
   
-You can also conduct audits yourself, like this [A11y Checklist](https://www.a11yproject.com/checklist/) or 
+You can also conduct audits yourself, like this [A11y Checklist](https://www.a11yproject.com/checklist/) or the [Much better one in Mircosoft's Extension](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni)
+
 
 **Pros**
 * Fast snapshot
@@ -101,11 +102,28 @@ There _is_ is an automated tool built for you stack that will do the heavy lifti
 
 ### Browser Extensions
 
+ **S-Tier**
 [funky](https://chrome.google.com/webstore/detail/funkify-%E2%80%93-disability-simu/ojcijjdchelkddboickefhnbdpeajdjg?hl=en)
 
-[tota11y](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe/related?hl=en)
-  
+[Web Accessability Insights](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni)
+ 
+ **Quick n dirty tier**
+ 
+ [tota11y](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe/related?hl=en)
+ 
 
+### Code Tools
+ 
+ #### E2E tests
+ [cypress](https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility)
+ 
+ #### Unit tests
+ (Jest)[https://maxrozen.com/automatic-a11y-testing-with-jest-axe]
+ 
+ #### Linter
+ [eslint](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+ 
+ 
 ### Booklearning
 
 ## The Stragety Guides
